@@ -18,7 +18,7 @@ public class Vendor {
             foundIt = true;
         }
         if(foundIt == true){
-            System.out.println("We found it!");
+            System.out.println("Good job!");
         }
         else {
             System.out.println("That wasn't there.");
