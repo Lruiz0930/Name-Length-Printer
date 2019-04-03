@@ -1,3 +1,4 @@
+//describe what the code does
 import java.util.*;
 public class Vendor {
     public static void main(String[] args){
@@ -16,9 +17,11 @@ public class Vendor {
             if (thisArray[i] == num)
             foundIt = true;
         }
-        if(foundIt == true)
+        if(foundIt == true){
             System.out.println("We found it!");
-        else 
+        }
+        else {
             System.out.println("That wasn't there.");
+        }
     }
 }
